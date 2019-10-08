@@ -1,0 +1,7 @@
+{
+  "name": "TryLikes Buttons",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

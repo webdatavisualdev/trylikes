@@ -1,0 +1,85 @@
+page-login {
+    ion-content {
+        background-image: url(../assets/imgs/login-bg.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+
+        .scroll-content {
+            padding-bottom: 25px !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    .btn-login {
+        margin-top: 15px;
+    }
+
+    a {
+        color: #FF2D5A;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .uppercase {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .btn-signup {
+        color: #FF2D5A;
+    }
+
+    .btn-icon {
+        margin-right: 0 !important;
+        padding: 0 !important;
+
+        ion-icon {
+            font-size: 24px;
+        }
+    }
+
+    .error {
+        color: #FF2D5A;
+        text-align: left;
+    }
+}
+
+ion-modal {
+    background-color: rgba(0, 0, 0, .5);
+
+    .ion-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .terms-modal {
+        position: relative;
+        max-width: 400px;
+        width: 80%;
+        height: 200px;
+        border-radius: 5px;
+
+        .scroll-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            padding: 10px 24px !important;
+
+            h3 {
+                margin-top: 0;
+            }
+
+            div {
+                font-size: 16px !important;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

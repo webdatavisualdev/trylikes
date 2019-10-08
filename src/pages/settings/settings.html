@@ -1,0 +1,43 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button clear color="dark" class="btn-logout" type="button" (click)="logout()">
+        Log Out
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>Settings</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <ion-item (click)="goProfile()">
+      <div>
+        <h2>Name</h2>
+        <p>{{user.name ? user.name : user.email}}</p>
+      </div>
+      <ion-icon name="ios-arrow-forward" item-end></ion-icon>
+    </ion-item>
+    <!-- <ion-item (click)="goNotification()">
+      <h2>Notification Settings</h2>
+      <div item-end>
+        <span>None</span>
+        <ion-icon name="ios-arrow-forward"></ion-icon>
+      </div>
+    </ion-item> -->
+    <ion-item (click)="goTerms()">
+      <h2>Terms of Service</h2>
+      <ion-icon name="ios-arrow-forward" item-end></ion-icon>
+    </ion-item>
+    <ion-item (click)="goPrivacy()">
+      <h2>Privacy Policy</h2>
+      <ion-icon name="ios-arrow-forward" item-end></ion-icon>
+    </ion-item>
+  </ion-list>
+  <span class="version">App ver 0.0.5</span>
+</ion-content>

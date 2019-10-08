@@ -1,0 +1,64 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button clear color="dark" class="btn-back" type="button" (click)="goMeasure()">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>Cashiers Desk</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p class="vote">221 VOTES TODAY</p>
+  <div class="desk-chart">
+    <div class="one-chart-container" *ngFor="let c of charts; let i = index">
+      <span class="num">{{c.num}}</span>
+      <img src="assets/icon/chart-yellow.svg" class="chart" height="{{c.percent * 120 / maxDeskChart + 10}}">
+      <span class="percent">{{c.percent}}%</span>
+      <img src="assets/icon/desk-{{i + 1}}.png" class="icon">
+    </div>
+  </div>
+
+  <div class="toggle-buttons">
+    <button ion-button clear class="btn-toggle" [class.active]="selectedIndex === 0" (click)="selectedIndex = 0">
+      <span>Overall</span>
+      <span class="underline" *ngIf="selectedIndex === 0"></span>
+    </button>
+    <button ion-button clear class="btn-toggle" [class.active]="selectedIndex === 1" (click)="selectedIndex = 1">
+      <span>Detailed</span>
+      <span class="underline" *ngIf="selectedIndex === 1"></span>
+    </button>
+  </div>
+
+  <hr class="section-divider">
+
+  <div class="status-section">
+    <div class="status-card">
+      <span class="status-title">Customers</span>
+      <span class="status-num">221</span>
+      <span class="status-percent">15% More</span>
+    </div>
+    <div class="status-card">
+      <span class="status-title">Positive</span>
+      <span class="status-num">99</span>
+      <span class="status-percent">15% More</span>
+    </div>
+  </div>
+
+  <ion-card class="more-card">
+    <ion-card-content>
+      <p class="question">Need more data?</p>
+      <div class="row">
+        <p>Order Full Report</p>
+        <button ion-button clear class="btn-forward">
+          <ion-icon name="ios-arrow-round-forward"></ion-icon>
+        </button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

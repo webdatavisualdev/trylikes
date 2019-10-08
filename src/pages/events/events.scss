@@ -1,0 +1,44 @@
+page-events {
+    ion-navbar {
+        margin-top: 30px !important;
+    }
+    
+    ion-content {
+        .scroll-content {
+            padding: 0 !important;
+        }
+    }
+
+    .example-desc {
+        color: #FF2D5A;
+        padding: 0 15px;
+        font-size: 20px;
+    }
+
+    ion-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+        margin-bottom: 15px !important;
+        opacity: .5;
+
+        h3 {
+            color: #25282B !important;
+        }
+
+        p {
+            color: #717C91 !important;
+        }
+
+        span {
+            color: #BDC6D7 !important;
+            font-size: 12px !important;
+        }
+
+        div {
+            flex: 10;
+            margin-left: 15px;
+        }
+    }
+}

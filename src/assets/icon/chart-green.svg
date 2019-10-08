@@ -1,0 +1,22 @@
+
+<svg width="51px" height="133px" viewBox="0 0 51 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="3.00793844%" x2="50%" y2="97.2841765%" id="linearGradient-1">
+            <stop stop-color="#AFF989" offset="0%"></stop>
+            <stop stop-color="#14C056" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-00-02-Measure" transform="translate(-296.000000, -445.000000)" fill="url(#linearGradient-1)">
+            <g id="Bar-chart-vertical-Copy" transform="translate(12.000000, 393.000000)">
+                <g id="Group-7" transform="translate(16.000000, 52.000000)">
+                    <g id="Group" transform="translate(268.000000, 0.000000)">
+                        <rect id="Rectangle-4-Copy-5" x="0" y="0" width="51" height="133" rx="4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

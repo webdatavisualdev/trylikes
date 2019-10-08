@@ -1,0 +1,45 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button clear color="dark" class="btn-back" type="button" (click)="goBack()">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>All Products</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="search-bar">
+    <ion-searchbar></ion-searchbar>
+    <ion-icon name="mic"></ion-icon>
+  </div>
+
+  <ion-card class="recommend-card">
+    <ion-card-title>Button StarterKit</ion-card-title>
+    <div class="img-container">
+      <img src="assets/imgs/dashboard-2.png">
+    </div>
+    <div class="row">
+      <p>The basic one, that will make you wanna measure everything around you.</p>
+      <button ion-button round color="light" type="button">€199</button>
+    </div>
+  </ion-card>
+
+  <ion-card *ngFor="let p of products" class="product">
+    <div class="row">
+      <div class="left">
+        <img src="assets/imgs/{{p.img}}">
+      </div>
+      <div class="right">
+        <h3>{{p.title}}</h3>
+        <p>{{p.desc}}</p>
+        <button ion-button round color="light" type="button">€{{p.price}}</button>
+      </div>
+    </div>
+  </ion-card>
+</ion-content>

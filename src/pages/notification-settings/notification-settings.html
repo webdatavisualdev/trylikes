@@ -1,0 +1,37 @@
+<!--
+  Generated template for the NotificationSettingsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button clear color="dark" class="btn-back" type="button" (click)="goBack()">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>Notification Settings</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>Send Push Notifications</ion-label>
+      <ion-toggle [checked]="pushSelected" color="danger" (ionChange)="changePushToggle()"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Sound</ion-label>
+      <ion-toggle [checked]="soundSelected" color="danger" (ionChange)="changeSoundToggle()"></ion-toggle>
+    </ion-item>
+  </ion-list>
+  <p class="snooze-title">Snooze all notifications</p>
+  <p class="snooze-desc">You can create snooze notifications for this location for set amount of time</p>
+  <ion-item>
+    <ion-label>Snooze Notifications</ion-label>
+  </ion-item>
+</ion-content>

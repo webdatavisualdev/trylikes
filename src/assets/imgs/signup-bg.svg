@@ -1,0 +1,39 @@
+
+<svg width="375px" height="256px" viewBox="0 0 375 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="256"></rect>
+        <linearGradient x1="-38.4767348%" y1="83.1392376%" x2="133.139238%" y2="88.4767348%" id="linearGradient-3">
+            <stop stop-color="#75BDEF" offset="0%"></stop>
+            <stop stop-color="#868FD4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.22044605e-14%" y1="50%" x2="97.9407514%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#EFF4FD" offset="0%"></stop>
+            <stop stop-color="#BCD1FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-100.422425%" id="linearGradient-5">
+            <stop stop-color="#75BDEF" offset="0%"></stop>
+            <stop stop-color="#868FD4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#75BDEF" offset="0%"></stop>
+            <stop stop-color="#868FD4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-01-00-Create-account-v3" transform="translate(0.000000, -556.000000)">
+            <g id="bg" transform="translate(0.000000, 556.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <circle id="Oval-2-Copy" fill="url(#linearGradient-3)" mask="url(#mask-2)" cx="314" cy="126" r="37"></circle>
+                <path d="M0,30.1766485 C29.1861966,4.90815842 69.8985129,-4.3774689 122.136949,2.31976649 C200.494603,12.3656196 170.784493,109.802314 263.464665,109.802314 C325.251447,109.802314 362.429892,126.522972 375,159.964286 L375,286 L0,286 L0,30.1766485 Z" id="Path-2" fill="url(#linearGradient-4)" mask="url(#mask-2)"></path>
+                <circle id="Oval-2" fill="url(#linearGradient-5)" mask="url(#mask-2)" cx="249.5" cy="38.5" r="17.5"></circle>
+                <circle id="Oval-3" fill="url(#linearGradient-6)" opacity="0.699999988" mask="url(#mask-2)" cx="192.5" cy="183.5" r="39.5"></circle>
+                <circle id="Oval-3-Copy" fill="url(#linearGradient-6)" opacity="0.800000012" mask="url(#mask-2)" cx="344" cy="317" r="88"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "392212547315",
+    "firebase_url": "https://trylikes-button.firebaseio.com",
+    "project_id": "trylikes-button",
+    "storage_bucket": "trylikes-button.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392212547315:android:5a71680672a3e37c",
+        "android_client_info": {
+          "package_name": "com.trylikes.button"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392212547315-3f3frm563p8q4lbm3s291204jsuuis2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQBI6dVOtn2jI0DWh1ev13LqHFBwA8NkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

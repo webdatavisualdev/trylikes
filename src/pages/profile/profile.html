@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button clear color="dark" class="btn-back" type="button" (click)="goBack()">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>Profile Settings</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content>
+  <form [formGroup]="form">
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Full Name</ion-label>
+        <ion-input formControlName="name" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Company Name</ion-label>
+        <ion-input formControlName="company" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Phone</ion-label>
+        <ion-input formControlName="phone" type="number"></ion-input>
+      </ion-item>
+      <button ion-button block [disabled]="!form.valid" class="btn-update" (click)="update()">Update</button>
+    </ion-list>
+  </form>
+</ion-content>

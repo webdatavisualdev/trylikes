@@ -1,0 +1,12 @@
+<ion-tabs *ngIf="tabType === 'default'" [selectedIndex]="selectedIndex">
+  <ion-tab [root]="tab1Root" tabTitle="Dashboard" tabIcon="ios-home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="Measure" tabIcon="pie"></ion-tab>
+  <!-- <ion-tab [root]="tab3Root" tabTitle="Events" tabIcon="notifications"></ion-tab> //-->
+  <ion-tab [root]="tab4Root" tabTitle="Settings" tabIcon="settings"></ion-tab>
+</ion-tabs>
+
+<ion-tabs *ngIf="tabType === 'measure'" class="measure-tab">
+  <ion-tab [root]="measureTab1" tabTitle="Today"></ion-tab>
+  <ion-tab [root]="measureTab2" tabTitle="7 days"></ion-tab>
+  <ion-tab [root]="measureTab3" tabTitle="30 days"></ion-tab>
+</ion-tabs>  

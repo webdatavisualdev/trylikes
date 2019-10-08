@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button clear color="dark" class="btn-back" type="button" (click)="goLogin()">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>Verify Email</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content padding>
+  <h5>Your email address is not yet verified.</h5>
+  <button ion-button block (click)="sendVerificationEmail()">Send Verification Email Again</button>
+</ion-content>
+

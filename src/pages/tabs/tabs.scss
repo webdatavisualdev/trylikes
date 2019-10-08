@@ -1,0 +1,36 @@
+page-tabs {
+    .tab-button {
+        color: #3B327B !important;
+
+        ion-icon {
+            color: #3B327B !important;
+        }
+
+        span {
+            font-size: 11px !important;
+            margin: 0 !important;
+        }
+    }
+
+    .tab-button[aria-selected=true] {
+        color: #FF2D5A !important;
+
+        ion-icon {
+            color: #FF2D5A !important;
+            transform: none !important;
+        }
+
+        span {
+            font-size: 11px !important;
+            transform: none !important;
+        }
+    }
+
+    .measure-tab {
+        .tab-button {
+            span {
+                font-size: 13px !important;
+            }
+        }
+    }
+}

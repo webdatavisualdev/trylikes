@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button clear color="dark" class="btn-back" type="button">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>Sign In</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="loginForm">
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Email</ion-label>
+        <ion-input formControlName="email" type="email"></ion-input>
+      </ion-item>
+      <p class="error" *ngIf="loginForm.controls['email'].errors && loginForm.controls['email'].dirty">Invalid e-mail address</p>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input formControlName="password" [type]="passwordType"></ion-input>
+        <button ion-button clear color="dark" class="btn-icon" type="button" item-right (click)="showPassword()">
+          <ion-icon name="md-eye-off" item-right></ion-icon>
+        </button>
+      </ion-item>
+      <p class="error" *ngIf="loginForm.controls['password'].errors && loginForm.controls['password'].dirty">Minimum length of the password should have 8 characters</p>
+      <button ion-button block class="btn-login" [disabled]="!loginForm.valid" (click)="login()">Log in</button>
+      <a (click)="goToForgot()">Forgot your password?</a>
+    </ion-list>
+  </form>
+  <div>
+    <p class="uppercase">Don’t have an account?</p>
+    <button ion-button color="light" class="btn-signup" block (click)="signup()">Sign Up</button>
+  </div>
+</ion-content>

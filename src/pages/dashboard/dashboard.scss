@@ -1,0 +1,147 @@
+page-dashboard {
+    ion-navbar {
+        margin-top: 30px !important;
+        align-items: flex-start !important;
+        
+        ion-icon {
+            color: #FF495C !important;
+            font-size: 30px;
+            text-shadow: 0 0 10px #FFEBEE;
+        }
+    }
+
+    .toolbar-ios {
+        padding-top: 15px !important;
+    }
+
+    ion-content {
+        .scroll-content {
+            padding: 0 !important;
+        }
+    }
+
+    .first-card {
+        position: relative;
+    }
+
+    .bottom-section {
+        margin-top: -40px;
+        padding: 0 15px 15px;
+    }
+
+    .question {
+        font-size: 20px;
+    }
+
+    // .bottom-section {
+    //     position: absolute;
+    //     bottom: 0;
+    //     width: 100%;
+    //     padding: 0 15px 15px;
+    // }
+
+    // .question {
+    //     text-transform: uppercase;
+    //     font-size: 13px;
+    //     color: #717C91;
+    // }
+
+    .row {
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+
+        p {
+            font-size: 16px;
+        }
+
+        .btn-forward {
+            padding: 0;
+            height: 20px;
+        }
+
+        ion-icon {
+            margin-top: 0;
+            font-size: 40px;
+            width: inherit !important;
+            line-height: 0;
+            color: #000000;
+        }
+    }
+
+    .section-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        margin-top: 30px;
+
+        h2 {
+            color: #3B327B;
+            font-size: 22px;
+            margin: 0;
+        }
+
+        button {
+            background: #FFEBEE;
+            color: #FF2D5A;
+        }
+    }
+
+    .product-section {
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        padding: 15px 0;
+
+        .product-card {
+            margin: 0 10px;
+            width: 250px;
+            flex: none;
+
+            .header {
+                background-image: linear-gradient(-90deg, #F96297 0%, #F4B5A5 100%);
+                padding: 10px;
+
+                button {
+                    color: #FF2D5A;
+                    font-size: 16px;
+                }
+
+                .img-container {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: -20px;
+                }
+
+                img {
+                    width: 140px !important;
+                }
+
+                h3 {
+                    font-size: 20px;
+                    margin-top: 15px;
+                    color: white;
+                }
+            }
+
+            p {
+                color: #717C91;
+            }
+        }
+    }
+
+    .article-section {
+        .article-card {
+            margin: 20px 10px;
+
+            ion-card-title {
+                font-size: 16px;
+            }
+
+            p {
+                color: #717C91;
+            }
+        }
+    }
+}

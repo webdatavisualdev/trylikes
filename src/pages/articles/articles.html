@@ -1,0 +1,36 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button clear color="dark" class="btn-back" type="button" (click)="goBack()">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>All Articles</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-card class="recommend-card">
+    <img src="assets/imgs/article-1.png">
+    <div class="title-section">
+      <h2>Running a Small Business</h2>
+    </div>
+    <div class="description-section">
+      <p>The basic one, that will make you wanna measure everything around you.</p>
+    </div>
+  </ion-card>
+
+  <ion-card *ngFor="let a of articles">
+    <div class="row">
+      <img src="assets/imgs/{{a.img}}">
+      <div class="right">
+        <h3>{{a.title}}</h3>
+        <p>{{a.name}} • {{a.date}}</p>
+      </div>
+    </div>
+  </ion-card>
+</ion-content>

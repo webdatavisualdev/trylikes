@@ -1,0 +1,36 @@
+page-signup {
+    ion-content {
+        background-image: url(../assets/imgs/signup-bg.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+    }
+
+    .btn-signup {
+        margin-top: 15px;
+    }
+
+    .btn-icon {
+        margin-right: 0 !important;
+        padding: 0 !important;
+
+        ion-icon {
+            font-size: 24px;
+        }
+    }
+
+    p {
+        text-align: center;
+        color: #717C91;
+        font-size: 12px;
+
+        a {
+            color: #FF2D5A;
+        }
+    }
+
+    .error {
+        color: #FF2D5A;
+        text-align: left;
+    }
+}

@@ -1,0 +1,62 @@
+page-articles {
+    .scroll-content {
+        padding: 0 !important;
+    }
+
+    ion-card {
+        margin-bottom: 15px !important;
+    }
+
+    .recommend-card {
+        position: relative;
+
+        .title-section {
+            position: absolute;
+            top: 0;
+            padding: 15px 10px;
+            background-image: linear-gradient(0deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.50) 99%);
+
+            h2 {
+                color: white;
+                font-size: 30px;
+            }
+        }
+
+        .description-section {
+            position: absolute;
+            bottom: 0;
+            padding: 10px;
+            background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, #000000 100%);
+
+            p {
+                color: white;
+            }
+        }
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 120px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .right {
+            flex: 10;
+            padding: 0 15px;
+
+            h3 {
+                color: #3B327B;
+                font-size: 20px;
+            }
+
+            p {
+                color: #717C91;
+            }
+        }
+    }
+}

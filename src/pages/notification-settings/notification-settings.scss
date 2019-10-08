@@ -1,0 +1,32 @@
+page-notification-settings {
+    ion-content {
+        .scroll-content {
+            padding: 0 10px !important;
+        }
+    }
+
+    ion-list {
+        margin-top: 20px !important;
+    }
+
+    .item {
+        .item-inner {
+            align-items: center;
+        }
+
+        ion-label {
+            color: #25282B !important;
+        }
+    }
+
+    .snooze-title {
+        color: #717C91;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .snooze-desc {
+        color: #717C91;
+        font-size: 12px;
+    }
+}

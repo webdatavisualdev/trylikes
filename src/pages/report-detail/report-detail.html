@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button clear color="dark" class="btn-back" type="button" (click)="goBack()">
+      <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-title>{{report.name}}</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="google-data-studio">
+    <iframe class='webPage' name="dataStudio" [src]="getUrl(report.url)" frameborder="0" allowfullscreen></iframe>
+  </div>
+</ion-content>

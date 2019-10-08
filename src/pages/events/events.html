@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Events</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <p class="example-desc">Example data - your results are coming soon</p>
+  <ion-card *ngFor="let e of events">
+    <ion-avatar item-start>
+      <img src="assets/imgs/avatar.svg">
+    </ion-avatar>
+    <div>
+      <h3>Cashier Desk</h3>
+      <p>3 happy button presses</p>
+    </div>
+    <span>10:23 AM</span>
+  </ion-card>
+  <ion-card *ngIf="deviceAlert">{{deviceAlert}}</ion-card>
+</ion-content>

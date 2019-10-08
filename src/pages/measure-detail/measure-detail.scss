@@ -1,0 +1,154 @@
+page-measure-detail {
+    .vote {
+        font-size: 13px;
+        color: #717C91;
+    }
+
+    .desk-chart,
+    .toilet-chart {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .one-chart-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .chart {
+        object-fit: cover;
+        border-radius: 5px;
+        width: 40px !important;
+    }
+
+    .percent {
+        margin-top: -18px;
+        color: white;
+        font-size: 12px;
+    }
+
+    .num {
+        color: #717C91;
+        font-size: 12px;
+    }
+
+    .icon {
+        margin-top: 10px;
+        width: 26px !important;
+    }
+
+    .toggle-buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-toggle {
+        color: rgba(255, 45, 90, .3);
+
+        &.active {
+            color: #FF2D5A;
+        }
+
+        .button-inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .underline {
+            margin-top: 5px;
+            display: block;
+            width: 20px;
+            height: 4px;
+            background-color: #FF2D5A;
+            border-radius: 3px;
+        }
+    }
+
+    .section-divider {
+        margin: 0 -30px;
+        width: calc(100% + 60px);
+    }
+
+    .status-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 25px 0;
+    }
+
+    .status-card {
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+        border-radius: 5px;
+        height: 130px;
+
+        &:first-child {
+            margin-right: 10px;
+        }
+
+        &:last-child {
+            margin-left: 10px;
+        }
+    }
+
+    .status-title {
+        color: #717C91;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .status-num {
+        font-size: 34px;
+    }
+
+    .status-percent {
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #7ED321;
+    }
+
+    .more-card {
+        background-image: linear-gradient(-270deg, #F96297 0%, #F4B5A5 100%);
+        margin: 0 0 20px !important;
+        width: 100% !important;
+    }
+
+    .question {
+        color: white;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .row {
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+
+        p {
+            color: white;
+            font-size: 16px;
+        }
+
+        .btn-forward {
+            padding: 0;
+            height: 20px;
+        }
+
+        ion-icon {
+            margin-top: 0;
+            font-size: 40px;
+            width: inherit !important;
+            line-height: 0;
+            color: white;
+        }
+    }
+}
